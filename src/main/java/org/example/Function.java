@@ -8,12 +8,14 @@ public class Function {
     public static void  showToy() {
         Lottery.showToys();
     }
-    //розыгрыш (Draw.draw) проведение розыгрыша
     public static void  DrawToy() {
-        Draw.drawToy();
+        Present.addPresent();
     }
-    public static void  presentToy() {
-        Present.presentToys();
+    public static void  showPresent() {
+        Present.showPresent();
+    }
+    public static void  takePresent() {
+        Present.takePresent();
     }
 
 }
